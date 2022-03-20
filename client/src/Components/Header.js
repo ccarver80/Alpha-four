@@ -5,12 +5,13 @@ import file from '../Style/Imgs/Vector.png';
 import calander from '../Style/Imgs/calander.png'
 import dropDown from '../Style/Imgs/dropDown.png'
 import profile from '../Style/Imgs/Profile.png'
+import dropDown2 from '../Style/Imgs/dropDown2.png'
 
 function Header() {
   return (
     <>
-      {/* =========Blue Bar ===================== */}
-      <div className="w-screen flex h-[49px] bg-light-blue">
+  {/* =========Blue Bar ===================== */}
+      <div className="flex h-[49px] bg-light-blue">
         <div className="mx-auto flex w-[585px] my-auto">
           <div className="flex my-auto bg-white rounded-xl w-[104.32px] h-[21px] text-center">
             <p className="mx-auto my-auto font-Roboto text-[9px] leading-[9px] tracking-[1.5px] text-dark-grey ">
@@ -25,8 +26,8 @@ function Header() {
           </div>
         </div>
       </div>
-
-      {/*========================Search Bar ============================ */}
+       
+  {/*========================Search Bar ============================ */}
 
       <div className="flex flex-row mt-1 h-12 ml-[120px]">
         {/* =============================Logo================== */}
@@ -49,7 +50,7 @@ function Header() {
             </div>
         </div>
 
-        {/* ============ Buttons =================================== */}
+        {/* ============ Buttons and USER INFO =================================== */}
         <div className="flex ml-7 h-12 w-[482px]">
           <button className="flex items-center w-[89px] h-6 my-auto border-[1px] border-blue-border rounded-[3px] font-Roboto text-[10px]">
                 <p className="mx-auto text-blue-border">WE’RE HIRING!</p>
@@ -79,7 +80,9 @@ function Header() {
             <img className="flex my-auto ml-[6px] w-8 h-8" src={profile}/>
           </div>
 
-          {/* =================User Info=============================== */}
+  {/*==============================NAVIGATION BAR =================================================  */}
+
+         
 
           
 
@@ -95,7 +98,17 @@ function Header() {
 
 
 
-      </div>
+      </div> 
+      <nav className="flex justify-between w-[1200px] mx-auto mt-[26.64px]">
+                <a className="text-[17px] font-Roboto"  href='#'  >Today NHB</a>
+                <a className="text-[17px] font-Roboto" href='#'  >My Programs</a>
+                <a className="text-[17px] font-Roboto" href='#'  >Training Calls</a>
+                <a className="text-[17px] font-Roboto" href='#'  >The Roledex</a>
+                <a className="text-[17px] font-Roboto" href='#'  >Resources</a>
+                <a className="text-[17px] font-Roboto" href='#'  >Integration Network</a>
+                <a className="text-[17px] font-Roboto flex" href='#'  >Swipes<img className="flex w-3 h-[6px] my-auto ml-1" src={dropDown2} /></a>
+                <a className="text-[17px] font-Roboto" href='#'  >Job Board</a>
+          </nav>
     </>
   );
 }
