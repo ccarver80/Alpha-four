@@ -29,7 +29,7 @@ function Header() {
         </p>
         <div className="absolute w-[114.9px] h-[2px] top-[28px] bg-goldenrod"></div>
       </div>
-
+        {/* Search Bar */}
       <div className="absolute flex w-[380px] h-[32px] rounded left-[428px] top-[61px] bg-light-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
