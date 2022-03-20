@@ -14,7 +14,9 @@ module.exports = {
         'light-blue': '#2478CC',
         'dark-grey': '#464E5B',
         'light-white': '#F4F4F4',
-        'goldenrod': '#F4AF32'
+        'goldenrod': '#F4AF32',
+        'blue-border': '#2478CC', 
+        'golden-button': '#FFC700',
       }
     },
   },
