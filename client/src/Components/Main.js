@@ -2,6 +2,9 @@ import React from "react";
 import Header from "./Header";
 
 import dropDown from "../Style/Imgs/dropDownSideBar.png";
+import profile from "../Style/Imgs/portfolioSidebar.png";
+import GreenChat from '../Style/Imgs/GreenChat.png'
+import chatBubble from '../Style/Imgs/chatBubble.png'
 
 function Main() {
   return (
@@ -11,8 +14,8 @@ function Main() {
       <div className="flex mx-auto w-[1200px]  h-[2108.59px] mt-6">
         {/* ==========Side Bar =========== */}
         <div className="flex flex-col w-[324px] h-[1312.04px]">
+          {/* 7 Day start card */}
           <div className="flex flex-row shadow-xl  w-[324px] h-[432px] rounded-tr-[7px] rounded-bl-[3px] pt-[30px] pb-[30px] pl-[27px] pr-[27px] ">
-            {/* 7 Day start card */}
             <div>
               <div className="flex flex-start mt-0 mr-[10px] w-[240px] h-[22px]">
                 <h1 className="font-Inter text-lg ">7-Day Fast Start</h1>
@@ -45,10 +48,27 @@ function Main() {
                 </ul>
               </div>
             </div>
+          </div>
+          {/* Need Help? card  */}
 
-                 {/* Need Help? card  */}
-
-
+          <div className="flex w-[323px] h-[388px] shadow-xl mt-8">
+            <div className="flex my-auto mx-auto">
+              {/* Content */}
+              <div className=" relative flex flex-col ">
+                <div className=" tracking mb-3 flex text-2xl mx-auto border-b-2 border-goldenrod">
+                  <h1>Need Help?</h1>
+                </div>
+                <div className=" w-[126px] h-[126px]">
+                
+                 <img className="absolute left-[88px] top-[140px]" src={GreenChat} />
+                <img src={profile} />
+                <img className="absolute left-[97px] top-[149px]" src={chatBubble} />
+                
+                   
+            
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
