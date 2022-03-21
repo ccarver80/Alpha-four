@@ -11,8 +11,8 @@ function Header() {
   return (
     <>
   {/* =========Blue Bar ===================== */}
-      <div className="flex h-[49px] bg-light-blue">
-        <div className="mx-auto flex w-[585px] my-auto">
+      <div className="flex flex-row w-screen h-[49px] bg-light-blue">
+        <div className="mx-auto flex my-auto">
           <div className="flex my-auto bg-white rounded-xl w-[104.32px] h-[21px] text-center">
             <p className="mx-auto my-auto font-Roboto text-[9px] leading-[9px] tracking-[1.5px] text-dark-grey ">
               REGISTER NOW
@@ -28,8 +28,8 @@ function Header() {
       </div>
        
   {/*========================Search Bar ============================ */}
-
-      <div className="flex flex-row mt-1 h-12 ml-[120px]">
+    <div className="flex">
+      <div className="flex flex-row mt-1 h-12 mx-auto">
         {/* =============================Logo================== */}
 
         <div className=" mt-[12.64px] flex-row flex h-12">
@@ -79,7 +79,7 @@ function Header() {
             </button> 
             <img className="flex my-auto ml-[6px] w-8 h-8" src={profile}/>
           </div>
-
+</div>
   {/*==============================NAVIGATION BAR =================================================  */}
 
          
