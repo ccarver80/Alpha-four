@@ -108,6 +108,7 @@ function Header() {
                 <a className="text-[17px] font-Roboto" href='#'  >Integration Network</a>
                 <a className="text-[17px] font-Roboto flex" href='#'  >Swipes<img className="flex w-3 h-[6px] my-auto ml-1" src={dropDown2} /></a>
                 <a className="text-[17px] font-Roboto" href='#'  >Job Board</a>
+                <a className="text-[17px] font-Roboto" href='#'  >The Community</a>
           </nav>
     </>
   );
